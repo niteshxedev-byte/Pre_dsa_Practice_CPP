@@ -58,4 +58,9 @@ int main(){
     print_pattern_4(5);
        print_pattern_5(5);
     return 0;
+
+
+
+
+    
 }
