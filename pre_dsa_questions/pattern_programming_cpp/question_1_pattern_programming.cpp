@@ -1,23 +1,21 @@
-// Star Triangle
-// *
-// **
-// ***
-// ****
-// nested for loop lagegi
-
 #include <iostream>
 using namespace std;
 
-int main(){
-    int n; cout << "Enter the number:";
-    cin>>n;
 
-    // main logic
-    for(int i = 1 ;i<=n;i++){
-        for(int j =1 ;j<=i;j++){
-            cout<<"*";
-        }
-cout<<" "<<endl;
+
+void square(int x){
+       for(int i =0;i<x;i++){
+     for(int j=0;j<x;j++){
+         cout<<"*";
+     }
+     cout<<endl;
+     
     }
-    return 0;
+   
+}
+
+int main(){
+ print_pattern_1(4);
+ 
+   return 0 ;
 }
