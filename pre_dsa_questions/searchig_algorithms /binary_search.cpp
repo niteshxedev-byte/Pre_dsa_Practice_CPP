@@ -2,7 +2,7 @@
 using namespace std;
 
 
-
+// Binary Search works on sorted array only
 
 
 
@@ -35,8 +35,7 @@ int  binarySearch(int arr[],int n,int key){
 int main(){
     int arr[7]={23,34,5,6,8,5,2};
     int n = sizeof(arr)/sizeof(arr[0]);
-    selectionSort(arr, n);
-    reverseArr(arr,n);
+    
     
     
     
